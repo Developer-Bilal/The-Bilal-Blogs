@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "title": "First Blog",
+            "body": "lorem ha hu th ji ko ho a",
+            "author": "mario",
+            "id": 1
+        },
+        {
+            "title": "Second Blog",
+            "body": "lorem ha hu th ji ko ho a",
+            "author": "luigi",
+            "id": 2
+        }
+    ]
+}
