@@ -6,6 +6,8 @@ import {
   Switch,
 } from "react-router-dom/cjs/react-router-dom.min";
 import Create from "./Create";
+import BlogDetails from "./BlogDetails";
+import NotFound from "./NotFound";
 
 function App() {
   return (
@@ -19,6 +21,12 @@ function App() {
             </Route>
             <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/blogs/:id">
+              <BlogDetails />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
